@@ -21,6 +21,9 @@ GMediaRender: Headless UPnP Renderer for Volumio 3
 > 
 > sudo apt-get install gstreamer1.0-alsa
 > 
+###### Setup GMediaRender
+> 
+> 
 > 
 ###### Check 
 > 
