@@ -11,9 +11,7 @@ GMediaRender: Headless UPnP Renderer for Volumio 3
 > 
 > volumio
 > 
-> sudo cp -f /tmp/sources.list /etc/apt/sources.list
-> 
-> sudo apt-get update
+> sudo cp -f /tmp/sources.list /etc/apt/sources.list && sudo apt-get update
 > 
 > sudo apt-get install libupnp-dev libgstreamer1.0-dev
 > 
