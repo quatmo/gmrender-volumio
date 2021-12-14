@@ -9,10 +9,10 @@ sudo wget -O /$TMPPATH/gmrender.service.tar.gz $TMPURL/gmrender.service.tar.gz
 
 sudo tar -xzvf /$TMPPATH/gmediarender.tar.gz --overwrite -C /
 sudo tar -xzvf /$TMPPATH/gmrender.service.tar.gz --overwrite -C /
-
-sudo systemctl daemon-reload
-sudo systemctl enable gmrender.service
 sync
+sudo systemctl daemon-reload
+sync
+sudo systemctl enable gmrender.service
 sudo systemctl restart gmrender.service
 sudo systemctl status gmrender.service
 
