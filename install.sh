@@ -3,7 +3,7 @@ echo "Download"
 mkdir /tmp/gmedia
 
 TMPURL="https://raw.githubusercontent.com/quatmo/gmrender-volumio/main"
-TMPPATH="/tmp/gmedia"
+TMPPATH="tmp/gmedia"
 sudo wget -O /$TMPPATH/gmediarender.tar.gz $TMPURL/gmediarender.tar.g
 sudo wget -O /$TMPPATH/gmrender.service.tar.gz $TMPURL/gmrender.service.tar.gz
 
