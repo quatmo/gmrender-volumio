@@ -25,7 +25,7 @@ GMediaRender: Headless UPnP Renderer for Volumio 3
 > reboot
 ###### Check sound
 > 
-PS: With MoodeAudio: Just change (#2) to: sudo apt-get update --allow-releaseinfo-change
+PS: With MoodeAudio: Just change  sudo apt-get update to: sudo apt-get update --allow-releaseinfo-change
 
 ####
 **Link** build from https://github.com/hzeller/gmrender-resurrect/blob/master/INSTALL.md
