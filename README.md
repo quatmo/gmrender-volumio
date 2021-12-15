@@ -6,7 +6,7 @@
 GMediaRender: Headless UPnP Renderer for Volumio 3
 #
 
-###### Install
+###### Install Package
 > sudo sed "s/#deb-src/deb-src/g" /etc/apt/sources.list > /tmp/sources.list
 > 
 > sudo cp -f /tmp/sources.list /etc/apt/sources.list && sudo apt-get update
